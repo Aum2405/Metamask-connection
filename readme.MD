@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a frontend application that connects to MetaMask, allowing users to interact with a smart contract. It provides functionalities to set numbers, perform calculations, and store the text on the Ethereum network.
+This project is a frontend that connects to MetaMask, allowing users to interact with a smart contract. It provides functionalities to set numbers, perform calculations, and store the text on the Ethereum network.
 
 ## Getting Started
 
