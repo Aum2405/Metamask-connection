@@ -15,7 +15,7 @@ To get started with the project, follow the instructions below:
 
 ### Installation
 
-1. Clone the repository: `git clone https://github.com/iMPERIAL18/connect-metamask-to-frontend.git`
+1. Clone the repository: `git clone https://github.com/Aum2405/Metamask-connection.git`
 2. Change to the project directory: `cd Front`
 3. Install the dependencies: `npm install`
 
@@ -36,10 +36,10 @@ Follow the steps below to execute the program:
    - Enter `http://localhost:8545` as the RPC URL and save it.
    - Enter `31337` as the Chain ID.
    - Import an account or create a new one in MetaMask and switch to it.
-7. Open the `contract.sol` file.
+7. Open the `Solidity-Frontend.sol` file.
 8. Change the environment to `hardhat network`.
 9. Compile and deploy the smart contract.
-10. Copy the contract address and paste it into the `FrontendMetamask.jsx` file as the value of the `contractAddress` variable.
+10. Copy the contract address and paste it into the `MyCustomMetamask.jsx` file as the value of the `contractAddress` variable.
 11. Run the development server: `npm run dev`
 12. Go to [http://localhost:5173/](http://localhost:5173/) in your web browser.
 13. Click on the "Connect to MetaMask" button.
@@ -51,4 +51,4 @@ Follow the steps below to execute the program:
 ## Crafter
 
 - Aum Patel
-- GitHub: [https://github.com/iMPERIAL18](https://github.com/iMPERIAL18)
+- GitHub: [https://github.com/Aum2405](https://github.com/Aum2405)
