@@ -1,0 +1,73 @@
+:root {
+  font-family: 'VT323', monospace;
+  line-height: 1.5;
+  font-weight: 4000;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #5c9cc4;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #06bba3;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGxuZzVrM3RyZnMya2QzZnc3ZmQxem95YWp4bXFmeHp2YWl2Z3VudyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7AtHoQ9XWbpwLRxs0t/giphy.gif);
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  font-family: 'VT323', monospace;
+}
+
+button {
+  border-radius: 8px;
+  margin-right: 10px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #212bdd;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #fdfbfb;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

@@ -1,0 +1,73 @@
+[
+	{
+	  "inputs": [
+		{
+		  "internalType": "int256",
+		  "name": "_e",
+		  "type": "int256"
+		},
+		{
+		  "internalType": "int256",
+		  "name": "_s",
+		  "type": "int256"
+		}
+	  ],
+	  "name": "setNumbers",
+	  "outputs": [],
+	  "stateMutability": "nonpayable",
+	  "type": "function"
+	},
+	{
+	  "inputs": [
+		{
+		  "internalType": "string",
+		  "name": "_str",
+		  "type": "string"
+		}
+	  ],
+	  "name": "setString",
+	  "outputs": [],
+	  "stateMutability": "nonpayable",
+	  "type": "function"
+	},
+	{
+	  "inputs": [],
+	  "name": "getDifference",
+	  "outputs": [
+		{
+		  "internalType": "int256",
+		  "name": "",
+		  "type": "int256"
+		}
+	  ],
+	  "stateMutability": "view",
+	  "type": "function"
+	},
+	{
+	  "inputs": [],
+	  "name": "getString",
+	  "outputs": [
+		{
+		  "internalType": "string",
+		  "name": "",
+		  "type": "string"
+		}
+	  ],
+	  "stateMutability": "view",
+	  "type": "function"
+	},
+	{
+	  "inputs": [],
+	  "name": "getSum",
+	  "outputs": [
+		{
+		  "internalType": "int256",
+		  "name": "",
+		  "type": "int256"
+		}
+	  ],
+	  "stateMutability": "view",
+	  "type": "function"
+	}
+  ]
+  
